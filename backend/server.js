@@ -7,7 +7,7 @@ const router = require("./router");
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:3001' // Replace with the appropriate origin
+  origin: 'https://mernstack-todoapp-api.vercel.app/' // Replace with the appropriate origin
 }));
 
 mongoose.connect(process.env.MONGODB_URL);
