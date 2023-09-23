@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseurl = "https://mernstack-todoapp-api.vercel.app"
+const baseurl = "https://mernstack-todoapp.vercel.app"
 
 
 
