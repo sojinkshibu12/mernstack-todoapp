@@ -7,10 +7,7 @@ const router = require("./router");
 
 const app = express();
 app.use(cors({
-  origin: ['https://mernstack-todoapp-api.vercel.app'],
-  methods : ["POST","GET"],
-  credentials:true
-
+  origin: 'https://mernstack-todoapp-2fbh.vercel.app' // Replace with the appropriate origin
 }));
 
 mongoose.connect(process.env.MONGODB_URL);
