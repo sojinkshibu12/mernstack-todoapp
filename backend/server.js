@@ -7,7 +7,7 @@ const router = require("./router");
 
 const app = express();
 app.use(cors({
-  origin: ['https://mernstack-todoapp-api.vercel.app/'],
+  origin: ['https://mernstack-todoapp-api.vercel.app'],
   methods : ["POST","GET"],
   credentials:true
 
